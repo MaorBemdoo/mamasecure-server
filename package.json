@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The server that powers mamasecure frontend",
+  "main": "index.js",
+  "repository": "https://github.com/MaorBemdoo/mamasecure-server",
+  "author": "Bemdoo Maor <bemdoo.maor1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.6.0",
+    "nodemon": "^3.1.10"
+  }
+}
